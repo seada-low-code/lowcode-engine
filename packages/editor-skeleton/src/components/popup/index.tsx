@@ -153,7 +153,7 @@ export class PopupContent extends PureComponent<{ safeId?: string }> {
         }}
         trigger={<div className="lc-popup-placeholder" style={pos} />}
         triggerType="click"
-        canCloseByOutSideClick
+        // canCloseByOutSideClick
         animation={false}
         onClose={this.onClose}
         id={this.props.safeId}
